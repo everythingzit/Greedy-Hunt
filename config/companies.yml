@@ -1,0 +1,93 @@
+- company: Amazon
+  platform:
+  custom:
+  slug:
+  module:
+  url:
+
+- company: Microsoft
+  platform:
+  slug:
+  module:
+  url:
+
+- company: Wealthsimple
+  platform:
+  custom:
+  slug:
+  module:
+  url:
+
+- company: Autodesk
+  platform:
+  slug:
+  module:
+  url:
+
+- company: Capital One
+  platform:
+  custom:
+  slug:
+  module:
+  url:
+
+- company: Nvidia
+  platform:
+  slug:
+  module:
+  url:
+
+- company: Shopify
+  platform:
+  custom:
+  slug:
+  module:
+  url:
+
+- company: Cisco
+  platform:
+  slug:
+  module:
+  url:
+
+- company: Morgan Stanley
+  platform:
+  slug:
+  module:
+  url:
+
+- company: Adobe
+  platform:
+  slug:
+  module:
+  url:
+
+- company: Stripe
+  platform:
+  slug:
+  module:
+  url:
+
+  - company: Intact
+  platform:
+  slug:
+  module:
+  url:
+
+- company: Intel
+  platform:
+  slug:
+  module:
+  url:
+
+- company: RBC
+  platform:
+  slug:
+  module:
+  url:
+
+- company: Warner Bros
+  platform:
+  slug:
+  module:
+  url:
