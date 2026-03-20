@@ -3,4 +3,4 @@ from scraper.job import Job
 
 class WorkdayScraper(BaseScraper):
     def scrape(self) -> list[Job]:
-        pass
+        return self.company["company"] + " --- WORKDAY"

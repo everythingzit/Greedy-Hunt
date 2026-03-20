@@ -1,93 +1,104 @@
 - company: Amazon
-  platform:
-  custom:
+  platform: none
+  custom: true
   slug:
-  module:
+  module: amazon
   url:
 
 - company: Microsoft
-  platform:
+  platform: none
+  custom: true
   slug:
-  module:
+  module: microsoft
   url:
 
 - company: Wealthsimple
-  platform:
-  custom:
+  platform: none
+  custom: true
   slug:
-  module:
+  module: wealthsimple
   url:
 
 - company: Autodesk
-  platform:
+  platform: workday
+  custom: false
   slug:
-  module:
+  module: autodesk
   url:
 
 - company: Capital One
-  platform:
-  custom:
+  platform: workday
+  custom: true
   slug:
-  module:
+  module: capital_one
   url:
 
 - company: Nvidia
-  platform:
+  platform: workday
+  custom: true
   slug:
-  module:
+  module: nvidia
   url:
 
 - company: Shopify
-  platform:
-  custom:
+  platform: none
+  custom: true
   slug:
-  module:
+  module: shopify
   url:
 
 - company: Cisco
-  platform:
+  platform: workday
+  custom: true
   slug:
-  module:
+  module: cisco
   url:
 
 - company: Morgan Stanley
-  platform:
+  platform: workday
+  custom: true
   slug:
-  module:
+  module: morgan_stanley
   url:
 
 - company: Adobe
-  platform:
+  platform: workday
+  custom: true
   slug:
-  module:
+  module: adobe
   url:
 
 - company: Stripe
-  platform:
+  platform: none
+  custom: true
   slug:
-  module:
+  module: stripe
   url:
 
-  - company: Intact
-  platform:
+- company: Intact
+  platform: workday
+  custom: false
   slug:
-  module:
+  module: intact
   url:
 
 - company: Intel
-  platform:
+  platform: workday
+  custom: false
   slug:
-  module:
+  module: intel
   url:
 
 - company: RBC
-  platform:
+  platform: workday
+  custom: true
   slug:
-  module:
+  module: rbc
   url:
 
 - company: Warner Bros
-  platform:
+  platform: workday
+  custom:  true
   slug:
-  module:
+  module: warner_bros
   url:
