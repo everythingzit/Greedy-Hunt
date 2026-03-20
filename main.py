@@ -1,5 +1,6 @@
 import yaml
 from scraper.base import BaseScraper
+from scraper.job import Job
 
 def load_companies() -> list[dict]:
     pass
@@ -7,7 +8,7 @@ def load_companies() -> list[dict]:
 def match_scraper(company: dict) -> BaseScraper:
     pass
 
-def process_data(jobs: list[dict]):
+def process_data(jobs: list[Job]):
     pass
 
 def main():
