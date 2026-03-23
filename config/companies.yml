@@ -25,6 +25,7 @@
   slug:
   module: autodesk
   url:
+    workday: https://autodesk.wd1.myworkdayjobs.com/Ext?locationCountry=a30a87ed25634629aa6c3958aa2b91ea
 
 - company: Capital One
   platform: workday
@@ -32,6 +33,8 @@
   slug:
   module: capital_one
   url:
+    workday: https://capitalone.wd12.myworkdayjobs.com/Capital_One?locations=5303cb0ddb47102d5fab484784240953
+    company: x
 
 - company: Nvidia
   platform: workday
@@ -39,6 +42,8 @@
   slug:
   module: nvidia
   url:
+    workday: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?locationHierarchy1=2fcb99c455831013ea529c3b93ba3236
+    company: x
 
 - company: Shopify
   platform: none
@@ -53,6 +58,8 @@
   slug:
   module: cisco
   url:
+    workday: https://cisco.wd5.myworkdayjobs.com/en-CA/Cisco_Careers?locations=202bf7dfec311001f4d36aafe7890000&locations=ef8a5a22403d1001f505750d76990000&locations=202bf7dfec311001f4d41cafa93e0000&locations=711bab74a75d1001f500b3d7e5700000&locations=026fa05becb01001f511983d851b0000&locations=0696c83bbe641001f4fb1c843fe40000
+    company: x
 
 - company: Morgan Stanley
   platform: workday
@@ -60,6 +67,8 @@
   slug:
   module: morgan_stanley
   url:
+    workday: https://ms.wd5.myworkdayjobs.com/External?locations=54e47b8ef82f10014f532280a6a80000&locations=ab146a953dc910014f515401622a0000
+    company: x
 
 - company: Adobe
   platform: workday
@@ -67,6 +76,8 @@
   slug:
   module: adobe
   url:
+    workday: https://adobe.wd5.myworkdayjobs.com/external_experienced?locationCountry=a30a87ed25634629aa6c3958aa2b91ea
+    company: x
 
 - company: Stripe
   platform: none
@@ -81,6 +92,7 @@
   slug:
   module: intact
   url:
+    workday: https://intactfc.wd3.myworkdayjobs.com/intactfc
 
 - company: Intel
   platform: workday
@@ -88,6 +100,7 @@
   slug:
   module: intel
   url:
+    workday: https://intel.wd1.myworkdayjobs.com/External?locations=3d7e019f2bb20100b6accdbea05c0000&locations=1e4a4eb3adf1019f4237e975bf81b3ce
 
 - company: RBC
   platform: workday
@@ -95,6 +108,8 @@
   slug:
   module: rbc
   url:
+    workday: https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1?Country=a30a87ed25634629aa6c3958aa2b91ea
+    company: x
 
 - company: Warner Bros
   platform: workday
@@ -102,3 +117,5 @@
   slug:
   module: warner_bros
   url:
+    workday: https://warnerbros.wd5.myworkdayjobs.com/global?locationCountry=a30a87ed25634629aa6c3958aa2b91ea
+    company: x
