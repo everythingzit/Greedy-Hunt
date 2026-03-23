@@ -30,9 +30,10 @@ def process_data(jobs: list[Job]):
 def main():
     companies = load_companies()
     for company in companies:
-        scrapers = match_scrapers(company)
-        for scraper in scrapers:
-            print(scraper.scrape())
+        if company["company"] == "Microsoft":
+            scrapers = match_scrapers(company)
+            for scraper in scrapers:
+                print(scraper.scrape())
 
 if __name__=="__main__":
     main()
