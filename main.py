@@ -35,9 +35,11 @@ def main():
         if company["company"] == "Amazon":
             scrapers = match_scrapers(company)
             for scraper in scrapers:
-                jobs.extend(scraper.scrape())
-                # for job in jobs:
-                #     print(job.title)
+                output = scraper.scrape()
+                jobs.extend(output)
 
+                for job in output:
+                    print(f"{job.title} | {job.company} | {job.url}")
+                    
 if __name__=="__main__":
     main()
