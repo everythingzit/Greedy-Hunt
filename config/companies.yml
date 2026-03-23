@@ -19,6 +19,8 @@
   slug:
   module: wealthsimple
   url:
+    company: https://jobs.ashbyhq.com/wealthsimple?employmentType=Intern
+    base: https://jobs.ashbyhq.com
 
 - company: Autodesk
   platform: workday
