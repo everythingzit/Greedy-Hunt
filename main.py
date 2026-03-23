@@ -28,11 +28,15 @@ def process_data(jobs: list[Job]):
     pass
 
 def main():
+    jobs = []
+
     companies = load_companies()
     for company in companies:
         scrapers = match_scrapers(company)
         for scraper in scrapers:
-            print(scraper.scrape())
+            jobs.extend(scraper.scrape())
+            # for job in jobs:
+            #     print(job.title)
 
 if __name__=="__main__":
     main()
