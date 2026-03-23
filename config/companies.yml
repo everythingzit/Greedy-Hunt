@@ -4,6 +4,8 @@
   slug:
   module: amazon
   url:
+    company: https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=recent&distanceType=Mi&radius=24km&latitude=&longitude=&loc_group_id=&loc_query=Canada&base_query=&city=&country=CAN&region=&county=&query_options=&
+    base: https://www.amazon.jobs
 
 - company: Microsoft
   platform: none
@@ -12,6 +14,7 @@
   module: microsoft
   url:
     company: https://apply.careers.microsoft.com/careers?domain=microsoft.com&start=0&location=Canada&sort_by=timestamp&filter_include_remote=1
+    base: https://apply.careers.microsoft.com
 
 - company: Wealthsimple
   platform: none

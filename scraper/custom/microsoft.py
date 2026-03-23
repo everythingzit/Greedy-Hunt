@@ -17,7 +17,7 @@ class Scraper(BaseScraper):
                 title = job.query_selector(".title-1aNJK").inner_text()
                 company = self.company["company"]
                 location = job.query_selector(".fieldValue-3kEar").inner_text()
-                base = "https://apply.careers.microsoft.com"
+                base = self.company["url"]["base"]
                 url = base + job.query_selector("a.r-link").get_attribute("href")
                 date_posted = job.query_selector(".subData-13Lm1").inner_text()
 
