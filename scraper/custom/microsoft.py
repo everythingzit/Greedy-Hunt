@@ -19,13 +19,13 @@ class Scraper(BaseScraper):
                 location = job.query_selector(".fieldValue-3kEar").inner_text()
                 base = "https://apply.careers.microsoft.com"
                 url = base + job.query_selector("a.r-link").get_attribute("href")
-                date = job.query_selector(".subData-13Lm1").inner_text()
+                date_posted = job.query_selector(".subData-13Lm1").inner_text()
 
                 time_selectors = ["minute", "minutes", "hour", "hours"]
-
-                if any(word in date.lower() for word in time_selectors):
-                    jobs.append(None)
+                if any(word in date_posted.lower() for word in time_selectors):
+                    job_match = Job(title, company, location, url, date_posted)
+                    jobs.append(job_match)
 
             browser.close()
 
-        return ""
+        return jobs
