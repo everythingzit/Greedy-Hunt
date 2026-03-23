@@ -11,6 +11,7 @@
   slug:
   module: microsoft
   url:
+    company: https://apply.careers.microsoft.com/careers?domain=microsoft.com&start=0&location=Canada&sort_by=timestamp&filter_include_remote=1
 
 - company: Wealthsimple
   platform: none
