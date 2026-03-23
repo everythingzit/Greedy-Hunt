@@ -32,14 +32,14 @@ def main():
 
     companies = load_companies()
     for company in companies:
-        if company["platform"] == "workday":
+        if company["company"] == "Amazon":
             scrapers = match_scrapers(company)
             for scraper in scrapers:
                 output = scraper.scrape()
                 jobs.extend(output)
 
-                # for job in output:
-                #     print(f"{job.title} | {job.company} | {job.url}")
+                for job in output:
+                    print(f"{job.title} | {job.company} | {job.url}")
                     
 if __name__=="__main__":
     main()
