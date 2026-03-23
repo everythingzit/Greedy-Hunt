@@ -32,7 +32,7 @@ def main():
 
     companies = load_companies()
     for company in companies:
-        if company["platform"] == "workday":
+        if company["company"] == "Wealthsimple":
             scrapers = match_scrapers(company)
             for scraper in scrapers:
                 output = scraper.scrape()
