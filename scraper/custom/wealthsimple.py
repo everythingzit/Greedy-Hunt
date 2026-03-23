@@ -24,7 +24,7 @@ class Scraper(BaseScraper):
                 date_posted = context["datePosted"].strip()
                 today = str(date.today())
                 
-                if today != date_posted:
+                if today == date_posted:
                     title = page.query_selector("h1._title_ud4nd_34").inner_text()
                     company = self.company["company"]
                     location = page.query_selector("div._section_101oc_37").query_selector("p").inner_text()
